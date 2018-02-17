@@ -27,7 +27,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/et_first_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -36,10 +36,11 @@
         android:ems="10"
         android:hint="@string/enter_first_number"
         android:inputType="number"
+        android:textColor="#ffffff"
         android:textColorHint="#70ffffff" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/et_second_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -48,6 +49,7 @@
         android:ems="10"
         android:hint="@string/enter_second_number"
         android:inputType="number"
+        android:textColor="#ffffff"
         android:textColorHint="#70ffffff" />
 
     <LinearLayout
@@ -78,6 +80,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="divide"
             android:text="/" />
 
         <Button
@@ -85,6 +88,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="multiply"
             android:text="*" />
     </LinearLayout>
 
@@ -98,6 +102,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/results"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="25dp"
