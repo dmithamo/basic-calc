@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Casio Basic</string>
+    <string name="header_title">_dennot8\'s (very) basic calculator</string>
+    <string name="enter_two_numbers">Enter two numbers:</string>
+    <string name="enter_first_number">Enter first number</string>
+    <string name="enter_second_number">Enter second number</string>
 </resources>
